@@ -43,8 +43,8 @@ spec:
   runPolicy: "Serial"
   source:
     git:
-      uri: https://github.com/ComplianceAsCode/content
-      ref: master
+      uri: https://github.com/dlbewley/content.git
+      ref: hackfest
   strategy:
     dockerStrategy:
       dockerfilePath: Dockerfiles/ocp4_content
